@@ -22,7 +22,7 @@ $q->bind_param("i", $cat["id"]);
 $q->execute();
 $productos = $q->get_result()->fetch_all(MYSQLI_ASSOC);
 
-// Foto de cada sección (Unsplash, enlace directo) y su autor
+// Foto de cada sección
 $base = "https://images.unsplash.com/";
 $sufijo = "?fm=jpg&q=70&w=700&h=525&auto=format&fit=crop";
 $fotos = [
