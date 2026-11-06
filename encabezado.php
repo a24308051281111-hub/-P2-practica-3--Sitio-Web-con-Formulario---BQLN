@@ -1,5 +1,5 @@
 <?php
-// Menú de secciones (cada una es su propio documento)
+// Menú de secciones
 $menu = [
   "index.php"     => "Inicio",
   "jeans.php"     => "Jeans",
